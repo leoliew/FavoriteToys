@@ -6,6 +6,8 @@ View <|-- ViewGroup
 ViewGroup <|-- GirdView
 ViewGroup <|-- AbsoluteLayout
 ViewGroup <|-- LinearLayout
-ViewGroup <|-- LinearLayout
-ViewGroup <|-- LinearLayout
+ViewGroup <|-- FrameLayout
+ViewGroup <|-- RelativeLayout
+
+LinearLayout <|-- TableLayout
 @enduml
