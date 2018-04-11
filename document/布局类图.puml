@@ -1,0 +1,11 @@
+@startuml
+object View
+
+View <|-- ViewGroup
+
+ViewGroup <|-- GirdView
+ViewGroup <|-- AbsoluteLayout
+ViewGroup <|-- LinearLayout
+ViewGroup <|-- LinearLayout
+ViewGroup <|-- LinearLayout
+@enduml
